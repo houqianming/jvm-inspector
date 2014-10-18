@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Class-Path: 
+Boot-Class-Path: tools.jar
+Premain-Class: cn.hqm.jvm.InspectAgent
+Agent-Class: cn.hqm.jvm.InspectAgent
+Main-Class: cn.hqm.jvm.InspectAttacher
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Can-Set-Native-Method-Prefix: true
